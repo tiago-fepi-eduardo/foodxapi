@@ -1,0 +1,14 @@
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Foodx.Test.deps.json
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Foodx.Test.runtimeconfig.json
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Foodx.Test.runtimeconfig.dev.json
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Foodx.Test.dll
+C:\TiagoEduardo\AppAPI\Foodx.Test\bin\Debug\netcoreapp2.0\Foodx.Test.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Test\obj\Debug\netcoreapp2.0\Foodx.Test.csprojAssemblyReference.cache
+C:\TiagoEduardo\AppAPI\Foodx.Test\obj\Debug\netcoreapp2.0\Foodx.Test.csproj.CoreCompileInputs.cache
+C:\TiagoEduardo\AppAPI\Foodx.Test\obj\Debug\netcoreapp2.0\Foodx.Test.AssemblyInfoInputs.cache
+C:\TiagoEduardo\AppAPI\Foodx.Test\obj\Debug\netcoreapp2.0\Foodx.Test.AssemblyInfo.cs
+C:\TiagoEduardo\AppAPI\Foodx.Test\obj\Debug\netcoreapp2.0\Foodx.Test.dll
+C:\TiagoEduardo\AppAPI\Foodx.Test\obj\Debug\netcoreapp2.0\Foodx.Test.pdb

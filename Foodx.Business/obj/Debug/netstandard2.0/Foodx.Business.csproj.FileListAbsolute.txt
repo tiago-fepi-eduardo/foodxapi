@@ -1,0 +1,12 @@
+C:\TiagoEduardo\AppAPI\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Business.deps.json
+C:\TiagoEduardo\AppAPI\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Business.dll
+C:\TiagoEduardo\AppAPI\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Business.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.csprojAssemblyReference.cache
+C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.csproj.CoreCompileInputs.cache
+C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.AssemblyInfoInputs.cache
+C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.AssemblyInfo.cs
+C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.dll
+C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Repository.dll
+C:\TiagoEduardo\AppAPI\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Repository.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.csproj.CopyComplete

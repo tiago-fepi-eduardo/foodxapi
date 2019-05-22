@@ -1,0 +1,16 @@
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Api.deps.json
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Api.runtimeconfig.json
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Api.runtimeconfig.dev.json
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Api.dll
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Api.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Api\obj\Debug\netcoreapp2.0\Foodx.Api.csprojAssemblyReference.cache
+C:\TiagoEduardo\AppAPI\Foodx.Api\obj\Debug\netcoreapp2.0\Foodx.Api.csproj.CoreCompileInputs.cache
+C:\TiagoEduardo\AppAPI\Foodx.Api\obj\Debug\netcoreapp2.0\Foodx.Api.AssemblyInfoInputs.cache
+C:\TiagoEduardo\AppAPI\Foodx.Api\obj\Debug\netcoreapp2.0\Foodx.Api.AssemblyInfo.cs
+C:\TiagoEduardo\AppAPI\Foodx.Api\obj\Debug\netcoreapp2.0\Foodx.Api.dll
+C:\TiagoEduardo\AppAPI\Foodx.Api\obj\Debug\netcoreapp2.0\Foodx.Api.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Business.dll
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Repository.dll
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Business.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Api\bin\Debug\netcoreapp2.0\Foodx.Repository.pdb
+C:\TiagoEduardo\AppAPI\Foodx.Api\obj\Debug\netcoreapp2.0\Foodx.Api.csproj.CopyComplete
