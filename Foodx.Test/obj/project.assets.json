@@ -5694,30 +5694,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TiagoEduardo\\.nuget\\packages\\": {},
+    "C:\\Users\\tiago\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TiagoEduardo\\AppAPI\\Foodx.Test\\Foodx.Test.csproj",
+      "projectUniqueName": "d:\\Projetos\\foodxapi\\Foodx.Test\\Foodx.Test.csproj",
       "projectName": "Foodx.Test",
-      "projectPath": "C:\\TiagoEduardo\\AppAPI\\Foodx.Test\\Foodx.Test.csproj",
-      "packagesPath": "C:\\Users\\TiagoEduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\TiagoEduardo\\AppAPI\\Foodx.Test\\obj\\",
+      "projectPath": "d:\\Projetos\\foodxapi\\Foodx.Test\\Foodx.Test.csproj",
+      "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
+      "outputPath": "d:\\Projetos\\foodxapi\\Foodx.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\TiagoEduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

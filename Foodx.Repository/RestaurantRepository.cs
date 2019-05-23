@@ -7,17 +7,14 @@ using Foodx.Repository.Interface;
 
 namespace Foodx.Repository
 {
-    public class RestaurantRepository : IRestaurant
+    public class RestaurantRepository : ConnectMongoDB, IRestaurant
     {
         private readonly IMongoCollection<RestaurantEntity> _restaurant;
 
-        public RestaurantRepository(){}
-
         public RestaurantRepository(IConfiguration config)
         {
-            var client = new MongoClient(config.GetConnectionString("connectfoodx"));
-            var database = client.GetDatabase("DBFoodX");
-            _restaurant = database.GetCollection<RestaurantEntity>("Restaurant");
+            base.Connect(config.GetConnectionString("dbfoodx"));
+            _restaurant = db.GetCollection<RestaurantEntity>("Restaurant");
         }
 
         public IEnumerable<RestaurantEntity> Get()

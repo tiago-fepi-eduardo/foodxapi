@@ -10,3 +10,15 @@ C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.pd
 C:\TiagoEduardo\AppAPI\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Repository.dll
 C:\TiagoEduardo\AppAPI\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Repository.pdb
 C:\TiagoEduardo\AppAPI\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.csproj.CopyComplete
+D:\Projetos\foodxapi\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Business.deps.json
+D:\Projetos\foodxapi\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Business.dll
+D:\Projetos\foodxapi\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Business.pdb
+D:\Projetos\foodxapi\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Repository.dll
+D:\Projetos\foodxapi\Foodx.Business\bin\Debug\netstandard2.0\Foodx.Repository.pdb
+D:\Projetos\foodxapi\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.csprojAssemblyReference.cache
+D:\Projetos\foodxapi\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.csproj.CoreCompileInputs.cache
+D:\Projetos\foodxapi\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.AssemblyInfoInputs.cache
+D:\Projetos\foodxapi\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.AssemblyInfo.cs
+D:\Projetos\foodxapi\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.csproj.CopyComplete
+D:\Projetos\foodxapi\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.dll
+D:\Projetos\foodxapi\Foodx.Business\obj\Debug\netstandard2.0\Foodx.Business.pdb

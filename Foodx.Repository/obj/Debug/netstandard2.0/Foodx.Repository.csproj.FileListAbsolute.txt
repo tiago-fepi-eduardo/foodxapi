@@ -7,3 +7,12 @@ C:\TiagoEduardo\AppAPI\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repositor
 C:\TiagoEduardo\AppAPI\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.AssemblyInfo.cs
 C:\TiagoEduardo\AppAPI\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.dll
 C:\TiagoEduardo\AppAPI\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.pdb
+D:\Projetos\foodxapi\Foodx.Repository\bin\Debug\netstandard2.0\Foodx.Repository.deps.json
+D:\Projetos\foodxapi\Foodx.Repository\bin\Debug\netstandard2.0\Foodx.Repository.dll
+D:\Projetos\foodxapi\Foodx.Repository\bin\Debug\netstandard2.0\Foodx.Repository.pdb
+D:\Projetos\foodxapi\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.csprojAssemblyReference.cache
+D:\Projetos\foodxapi\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.csproj.CoreCompileInputs.cache
+D:\Projetos\foodxapi\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.AssemblyInfoInputs.cache
+D:\Projetos\foodxapi\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.AssemblyInfo.cs
+D:\Projetos\foodxapi\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.dll
+D:\Projetos\foodxapi\Foodx.Repository\obj\Debug\netstandard2.0\Foodx.Repository.pdb
