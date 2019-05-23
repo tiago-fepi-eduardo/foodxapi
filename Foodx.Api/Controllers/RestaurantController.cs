@@ -5,19 +5,25 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Foodx.Business;
 using Foodx.Repository.Entity;
+using Foodx.Repository.Interface;
 
 namespace Foodx.Api.Controllers
 {
     [Route("api/[controller]")]
     public class RestaurantController : Controller
     {
+        RestaurantBusiness restaurantBusiness = null;
+        public RestaurantController(IRestaurant restaurantRepository)
+        {
+            restaurantBusiness = new RestaurantBusiness(restaurantRepository);
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
 
-            RestaurantBusiness restaurantBusiness = new RestaurantBusiness();
             var listRestaurant = restaurantBusiness.Get();
         }
 
@@ -27,7 +33,6 @@ namespace Foodx.Api.Controllers
         {
             return "value";
 
-            RestaurantBusiness restaurantBusiness = new RestaurantBusiness();
             var listRestaurant = restaurantBusiness.Get(id);
         }
 
@@ -35,7 +40,6 @@ namespace Foodx.Api.Controllers
         [HttpPost]
         public void Post([FromBody]string value)
         {
-            RestaurantBusiness restaurantBusiness = new RestaurantBusiness();
             RestaurantEntity model = new RestaurantEntity();
 
             model.IdRestaurant = 3;
@@ -48,7 +52,6 @@ namespace Foodx.Api.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            RestaurantBusiness restaurantBusiness = new RestaurantBusiness();
             restaurantBusiness.Remove(id);
         }
     }

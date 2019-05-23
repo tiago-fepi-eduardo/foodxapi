@@ -10,9 +10,9 @@ namespace Foodx.Business
     {
        private readonly IRestaurant _restaurant;
 
-        public RestaurantBusiness()
+        public RestaurantBusiness(IRestaurant restaurantRepository)
         {
-            _restaurant = new RestaurantRepository();
+            _restaurant = restaurantRepository;
         }
 
 

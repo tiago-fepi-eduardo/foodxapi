@@ -9,42 +9,40 @@ namespace Foodx.Repository
 {
     public class RestaurantRepository : ConnectMongoDB, IRestaurant
     {
-        private readonly IMongoCollection<RestaurantEntity> _restaurant;
-
-        public RestaurantRepository(IConfiguration config)
+        IMongoCollection<RestaurantEntity> _table;
+        public RestaurantRepository()
         {
-            base.Connect(config.GetConnectionString("dbfoodx"));
-            _restaurant = db.GetCollection<RestaurantEntity>("Restaurant");
+            _table = _database.GetCollection<RestaurantEntity>("Restaurant");
         }
 
         public IEnumerable<RestaurantEntity> Get()
         {
-            return _restaurant.Find<RestaurantEntity>(Restaurant => true).ToList();
+            return _table.Find<RestaurantEntity>(Restaurant => true).ToList();
         }
 
         public RestaurantEntity Get(int id)
         {
-            return _restaurant.Find<RestaurantEntity>(restaurant => restaurant.IdRestaurant == id).FirstOrDefault();
+            return _table.Find<RestaurantEntity>(restaurant => restaurant.IdRestaurant == id).FirstOrDefault();
         }
 
         public void Create(RestaurantEntity restaurant)
         {
-            _restaurant.InsertOne(restaurant);
+            _table.InsertOne(restaurant);
         }
 
         public void Update(int id, RestaurantEntity restaurantIn)
         {
-            _restaurant.ReplaceOne(restaurant => restaurant.IdRestaurant == id, restaurantIn);
+            _table.ReplaceOne(restaurant => restaurant.IdRestaurant == id, restaurantIn);
         }
 
         public void Remove(RestaurantEntity restaurantIn)
         {
-            _restaurant.DeleteOne(restaurant => restaurant == restaurantIn);
+            _table.DeleteOne(restaurant => restaurant == restaurantIn);
         }
 
         public void Remove(int id)
         {
-            _restaurant.DeleteOne(restaurant => restaurant.IdRestaurant == id);
+            _table.DeleteOne(restaurant => restaurant.IdRestaurant == id);
         }
     }
 }
