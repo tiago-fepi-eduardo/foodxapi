@@ -10,8 +10,9 @@ namespace Foodx.Repository
     public class RestaurantRepository : ConnectMongoDB, IRestaurant
     {
         IMongoCollection<RestaurantEntity> _table;
-        public RestaurantRepository()
+        public RestaurantRepository(IConfiguration configuration)
         {
+            base.Connect(configuration);
             _table = _database.GetCollection<RestaurantEntity>("Restaurant");
         }
 

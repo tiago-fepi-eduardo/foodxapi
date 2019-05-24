@@ -3,18 +3,18 @@ using System.Linq;
 using Foodx.Repository.Interface;
 using Foodx.Repository;
 using Foodx.Repository.Entity;
+using Microsoft.Extensions.Configuration;
 
 namespace Foodx.Business
 {
     public class RestaurantBusiness
     {
-       private readonly IRestaurant _restaurant;
+       private readonly RestaurantRepository _restaurant;
 
-        public RestaurantBusiness(IRestaurant restaurantRepository)
+        public RestaurantBusiness(IConfiguration configuration)
         {
-            _restaurant = restaurantRepository;
+            _restaurant = new RestaurantRepository(configuration);
         }
-
 
         public void Create(RestaurantEntity restaurant){
            _restaurant.Create(restaurant);

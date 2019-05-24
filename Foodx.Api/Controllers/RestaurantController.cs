@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Foodx.Business;
 using Foodx.Repository.Entity;
 using Foodx.Repository.Interface;
+using Microsoft.Extensions.Configuration;
 
 namespace Foodx.Api.Controllers
 {
@@ -13,27 +14,27 @@ namespace Foodx.Api.Controllers
     public class RestaurantController : Controller
     {
         RestaurantBusiness restaurantBusiness = null;
-        public RestaurantController(IRestaurant restaurantRepository)
+        public RestaurantController(IConfiguration configuration)
         {
-            restaurantBusiness = new RestaurantBusiness(restaurantRepository);
+            restaurantBusiness = new RestaurantBusiness(configuration);
         }
 
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<RestaurantEntity> Get()
         {
-            return new string[] { "value1", "value2" };
+            //return new string[] { "value1", "value2" };
 
-            var listRestaurant = restaurantBusiness.Get();
+            return restaurantBusiness.Get();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public RestaurantEntity Get(int id)
         {
-            return "value";
+            //return "value";
 
-            var listRestaurant = restaurantBusiness.Get(id);
+            return restaurantBusiness.Get(id);
         }
 
         // POST api/values
