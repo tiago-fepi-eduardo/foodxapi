@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Foodx.Business;
 using Foodx.Repository.Entity;
-using Foodx.Repository.Interface;
 using Microsoft.Extensions.Configuration;
+using Foodx.Model;
 
 namespace Foodx.Api.Controllers
 {
@@ -19,41 +19,100 @@ namespace Foodx.Api.Controllers
             restaurantBusiness = new RestaurantBusiness(configuration);
         }
 
-        // GET api/values
+        // GET api/restaurant
         [HttpGet]
-        public IEnumerable<RestaurantEntity> Get()
+        public RestaurantModel Get()
         {
-            //return new string[] { "value1", "value2" };
+            RestaurantModel model = new RestaurantModel();
 
-            return restaurantBusiness.Get();
+            try
+            {
+                var listResult = restaurantBusiness.Get();
+                foreach (var item in listResult)
+                {
+                    model.ListRestaurant.Add(new RestaurantModel()
+                    {
+                        _id = item._id,
+                        IdRestaurant = item.IdRestaurant,
+                        NmRestaurant = item.NmRestaurant
+                    });
+                    model.ErrorSuccess = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                model.ErrorSuccess = false;
+                model.ErrorNmMessage = ex.Message;
+            }
+            return model;
         }
 
-        // GET api/values/5
+        // GET api/restaurant/5
         [HttpGet("{id}")]
-        public RestaurantEntity Get(int id)
+        public RestaurantModel Get(int id)
         {
-            //return "value";
+            RestaurantModel model = new RestaurantModel();
 
-            return restaurantBusiness.Get(id);
+            try
+            {
+                var result = restaurantBusiness.Get(id);
+
+                model.IdRestaurant = result.IdRestaurant;
+                model.NmRestaurant = result.NmRestaurant;
+                model.ErrorSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                model.ErrorSuccess = false;
+                model.ErrorNmMessage = ex.Message;
+            }
+            return model;
         }
 
-        // POST api/values
+        // GET api/restaurant/getcount
+        //[HttpGet]
+        //public int GetCount()
+        //{
+        //    return restaurantBusiness.Get().Count();
+        //}
+
+        // POST api/restaurant
         [HttpPost]
-        public void Post([FromBody]string value)
+        public RestaurantModel Post([FromForm]int restaurantId, string restaurantName)
         {
-            RestaurantEntity model = new RestaurantEntity();
-
-            model.IdRestaurant = 3;
-            model.NmRestaurant = "Restaurante 3";
-
-            restaurantBusiness.Create(model);
+            RestaurantModel model = new RestaurantModel();
+            try
+            {
+                RestaurantEntity entity = new RestaurantEntity();
+                entity.IdRestaurant = restaurantId;
+                entity.NmRestaurant = restaurantName;
+                restaurantBusiness.Create(entity);
+                model.ErrorSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                model.ErrorSuccess = false;
+                model.ErrorNmMessage = ex.Message;
+            }
+            return model;
         }
 
-        // DELETE api/values/5
+        // DELETE api/restaurant/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public RestaurantModel Delete(int id)
         {
-            restaurantBusiness.Remove(id);
+            RestaurantModel model = new RestaurantModel();
+            try
+            {
+                restaurantBusiness.Remove(id);
+                model.ErrorSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                model.ErrorSuccess = false;
+                model.ErrorNmMessage = ex.Message;
+            }
+            return model;
         }
     }
 }

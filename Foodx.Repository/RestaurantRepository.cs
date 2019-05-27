@@ -13,7 +13,7 @@ namespace Foodx.Repository
         public RestaurantRepository(IConfiguration configuration)
         {
             base.Connect(configuration);
-            _table = _database.GetCollection<RestaurantEntity>("Restaurant");
+            _table = _database.GetCollection<RestaurantEntity>("restaurant");
         }
 
         public IEnumerable<RestaurantEntity> Get()
